@@ -1,9 +1,5 @@
 ### burgers_db schema
 
-ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Of20695353?';
-
-flush privileges;
-
 DROP DATABASE IF EXISTS burgers_db;
 CREATE DATABASE burgers_db;
 
