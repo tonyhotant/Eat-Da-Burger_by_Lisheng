@@ -20,6 +20,7 @@
     "@mysql/xdevapi": "8.0.20",
     "express": "^4.17.1",
     "express-handlebars": "^4.0.4",
+    "method-override": "^3.0.0",
     "mysql": "^2.18.1"
   }
 }

@@ -1,23 +1,24 @@
-li {
-  padding: 5px;
-  margin: 5px;
-  background: #faebd7;
+h1 {
+  background-color: #f67f72;
 }
 
-.label {
-  font-weight: bold;
+ul {
+  list-style-type: none;
 }
 
-.create-update-form {
-  padding: 5px;
-  margin: 5px;
-  background: aqua;
+img {
+  max-height: 200px;
 }
 
-.form-group {
-  margin-bottom: 5px;
+.btn-mustard {
+  background-color: #fac126;
+}
+
+.btn-ketchup {
+  background-color: #f67f72;
 }
 
 body {
   background-image: url(../img/burger.png);
+  text-align: center;
 }
