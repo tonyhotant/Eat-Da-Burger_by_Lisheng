@@ -27,3 +27,9 @@ app.use(routes);
 app.listen(PORT, function () {
   console.log(`App now listening at localhost: ${PORT}`);
 });
+
+// if deployed, use the deployed database. Otherwise use the local mongoHeadlines database
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
+
+// Connect to the Mongo DB
+mongoose.connect(MONGODB_URI);
